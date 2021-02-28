@@ -20,6 +20,4 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^register/', include('stu.urls')),
-    url(r'^student/', include('stu.urls')),
-    url(r'^bootstrap-4.6.0-dist/', include('stu.urls'))
 ]
