@@ -55,3 +55,8 @@ def login_view(request):
             if c == 1:
                 return HttpResponse('登陆成功！')
         return HttpResponse('登陆失败！')
+
+
+def test1_func(request):
+
+        return render(request,'test1.html')
